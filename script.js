@@ -6,6 +6,21 @@
 //Write filterByGenre(books, genre) below here:
 
 
+
+function filterByGenre( books, genre ) {
+
+    return books.filter( function(bk) {
+      return bk.genre===genre})
+    }
+    
+  
+
+
+
+
+
+
+
 const books = [
   {
     title: "The Da Vinci Code",
